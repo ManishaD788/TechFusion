@@ -1,6 +1,6 @@
 # manishark
 Design and develop a multi-page College Club Website using only HTML and   Basic CSS. The website must consist of the following four separate HTML   pages:
-# [Your Club Name] — College Club Website
+# techfusion — College Club Website
 
 **A simple multi-page club website built using HTML & CSS**  
 This project is a basic static website for a college club, with pages for Home, About, Events, and Join form. It demonstrates semantic HTML, CSS layout using float & Flexbox, and a clean folder structure — ideal for hosting on GitHub Pages or sharing as a portfolio project.
