@@ -1,0 +1,109 @@
+/* ---------- BASIC RESET ---------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* ---------- NAVBAR STYLES ---------- */
+.navbar {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+.navbar .logo {
+    float: left;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.navbar ul {
+    float: right;
+    list-style: none;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+/* ---------- HOME PAGE ---------- */
+.home-banner {
+    background: #714c71;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+
+/* ---------- ABOUT PAGE ---------- */
+.about-section {
+    width: 80%;
+    margin: 40px auto;
+    line-height: 1.6;
+}
+
+.about-section img {
+    width: 300px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 200px;
+}
+
+/* ---------- EVENTS PAGE ---------- */
+.events-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px;
+}
+
+.event-card {
+    width: 30%;
+    padding: 20px;
+    background: #c5c0c0;
+    border: 2px solid #444;
+    border-radius: 10px;
+}
+
+/* ---------- JOIN PAGE ---------- */
+.join-form {
+    width: 40%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 2px solid #444;
+    border-radius: 10px;
+}
+
+.join-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.join-form input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px;
+    width: 100%;
+    background: green;
+    color: white;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
